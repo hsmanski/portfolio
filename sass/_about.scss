@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 15% 40px 15%;
+  transform: translateY(-5rem);
+
+  &_img {
+    width: 100px;
+
+    border: solid 3px $color-primary-light;
+    border-radius: 50%;
+    z-index: 3;
+  }
+}
