@@ -693,10 +693,6 @@ body {
   }
 }
 
-.project-technologies:nth-last-child() {
-  margin-right: 0;
-}
-
 .view-site-code-wrapper {
   margin-top: 2rem;
   margin-bottom: 3rem;
