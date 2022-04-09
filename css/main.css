@@ -550,6 +550,12 @@ body {
           transform: rotateZ(135deg);
 }
 
+.hide {
+  opacity: 0;
+  display: none !important;
+  visibility: hidden;
+}
+
 .portfolio {
   padding-top: 30px;
   padding-bottom: 100px;
@@ -866,6 +872,21 @@ body {
 }
 
 .project-link-screenshot:hover {
+  border-bottom: 0.15rem solid rgba(199, 125, 255, 0.6);
+}
+
+.more-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 0.15rem solid #ffff;
+  padding-top: 50px;
+}
+
+.more-btn:hover {
   border-bottom: 0.15rem solid rgba(199, 125, 255, 0.6);
 }
 
