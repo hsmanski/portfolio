@@ -32,6 +32,7 @@ body {
   font-size: 3rem;
   font-family: "Lato", sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
 @media only screen and (max-width: 43.75em) {
@@ -42,7 +43,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -78,6 +79,12 @@ body {
   color: #240046;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .paragraph {
+    text-align: center;
+  }
 }
 
 .portfolio-paragraph {
@@ -131,6 +138,7 @@ body {
 
 .copyright {
   color: #fff;
+  font-size: 1.3rem;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   opacity: 0.5;
@@ -147,16 +155,53 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 15% 40px 15%;
-  -webkit-transform: translateY(-5rem);
-          transform: translateY(-5rem);
+  margin: 0 15% 30px 15%;
+  -webkit-transform: translateY(-12rem);
+          transform: translateY(-12rem);
+}
+
+@media only screen and (max-width: 43.75em) {
+  .about {
+    -webkit-transform: translateY(-8rem);
+            transform: translateY(-8rem);
+    margin: 0 10% 10px 10%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .about {
+    -webkit-transform: translateY(-6.5rem);
+            transform: translateY(-6.5rem);
+  }
 }
 
 .about_img {
-  width: 100px;
+  width: 200px;
+  margin-bottom: 10px;
   border: solid 3px #7b2cbfff;
   border-radius: 50%;
   z-index: 3;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .about_img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .about_img {
+    width: 120px;
+  }
+}
+
+.about h3 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  letter-spacing: 1px;
+  max-width: 800px;
 }
 
 .footer {
@@ -227,7 +272,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  height: 550px;
+  height: 650px;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .header_textbox {
+    height: 575px;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -245,7 +296,7 @@ body {
 
 @media only screen and (max-width: 43.75em) {
   .header_hello {
-    font-size: 6rem;
+    font-size: 6.5rem;
   }
 }
 
@@ -281,7 +332,7 @@ body {
 .btn_port, .btn_port:link, .btn_port:visited {
   margin-top: 2rem;
   padding: 0.8rem 2.5rem;
-  color: #7b2cbfff;
+  color: #3c096c;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   text-decoration: none;
@@ -754,7 +805,7 @@ body {
 }
 
 .btn_site:hover {
-  color: #7b2cbfff;
+  color: #3c096c;
   background-color: #c77dff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
@@ -776,7 +827,7 @@ body {
 .btn_code, .btn_code:link, .btn_code:visited {
   margin-top: 2rem;
   padding: 0.8rem 2.5rem;
-  color: #7b2cbfff;
+  color: #3c096c;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;

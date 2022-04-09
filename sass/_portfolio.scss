@@ -190,7 +190,7 @@
   }
 
   &:hover {
-    color: $color-primary-light;
+    color: $color-primary;
 
     background-color: $color-secondary-light;
     box-shadow: 0 1rem 2rem rgba(#000, 0.2);
@@ -213,7 +213,7 @@
     margin-top: 2rem;
     padding: 0.8rem 2.5rem;
 
-    color: $color-primary-light;
+    color: $color-primary;
     font-family: $font-secondary;
     font-size: 1.5rem;
     text-decoration: none;
